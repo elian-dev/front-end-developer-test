@@ -1,0 +1,87 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+}
+
+/* Your Styles */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: fit-content;
+}
+
+.wrapper h1.main-title {
+  text-decoration: underline;
+}
+
+#product-form {
+  width: auto;
+  background-color: #d5d5d5;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 2px 1px  #333;
+  margin: auto;
+}
+
+#product-form .form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 10px 0px;
+}
+
+#product-form input.input-submit {
+  background-color: #333;
+  color: #d5d5d5;
+  border: none;
+
+  padding: 10px 20px;
+  margin: auto;
+}
+
+#products-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#products-table thead tr {
+  background-color: #333;
+  color: #fff;
+}
+
+#products-table tbody > tr > td {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  border: none;
+  margin: auto;
+}
+
+.btn.btn-delete {
+  background-color: red;
+  color: #fff;
+  margin: auto;
+}
